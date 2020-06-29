@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin" />
+    <title>Document</title>
+    <style>
+      #tId {
+          font-family: Pangolin;
+        margin: auto;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      #tId {
+        text-align: center;
+        text-transform: capitalize;
+      }
+      #tId th:nth-child(even) {
+        background-color: rgb(148, 151, 151);
+      }
+
+      tr:first-child {
+        background-color: rgb(113, 116, 116);
+      }
+
+      tr:last-child td:first-child {
+        text-align: left;
+        padding-left: 12px;
+        background-color: rgb(216, 98, 43);
+      }
+      td[colspan="4"] {
+        text-align: left;
+         padding-left: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 70%;" id="tId">
+      <tr style="">
+        <th>ID</th>
+        <th>họ và tên</th>
+        <th>điểm</th>
+        <th>xếp loại</th>
+      </tr>
+      <tr>
+        <td colspan="4">khóa a</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>trần tiến tài</td>
+        <td>7</td>
+        <td rowspan="2">Khá</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>phạm anh khoa</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td colspan="4">khóa b</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>nguyễn duy khang</td>
+        <td>5</td>
+        <td>trung bình</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>nguyễn đức mạnh</td>
+        <td>10</td>
+        <td>giỏi</td>
+      </tr>
+      <tr>
+        <td colspan="4">khóa c</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>nguyễn duy khang</td>
+        <td>9</td>
+        <td>trung bình</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>nguyễn đức mạnh</td>
+        <td>10</td>
+        <td>giỏi</td>
+      </tr>
+      <tr>
+        <td colspan="2">tổng cộng:</td>
+        <td>7.5</td>
+        <td>khá</td>
+      </tr>
+    </table>
+  </body>
+</html>
